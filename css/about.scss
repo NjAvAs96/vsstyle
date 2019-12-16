@@ -1,0 +1,266 @@
+.about-us-container {
+    width: 80%;
+    height: auto;
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 10rem;
+
+    display: grid;
+    //grid-template-rows: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+
+    .about1 {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: 1fr;
+        justify-items: center;
+        align-items: center;
+
+        .img-h {
+            grid-column: 1/-1;
+            grid-row: 1/-1;
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            grid-template-rows: 1fr;
+            align-items: center;
+
+            img {
+                grid-column: 1/2;
+                grid-row: 1/-1;
+                max-width: 100%;
+            }
+
+            h1 {
+                margin-top: 4rem;
+                font-family: bsb;
+                font-size: 5.3rem;
+                letter-spacing: .1rem;
+                color: $crvena;
+                grid-column: 2/-1;
+                grid-row: 1/-1;
+                justify-self: left;
+                align-self: start;
+            }
+        }
+
+        p {
+            margin-top: 1rem;
+            align-self: end;
+            grid-column: 2/-1;
+            grid-row: 1/-1;
+            font-family: roboto;
+            font-size: 1.5rem;
+        }
+    }
+
+    .about2 {
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5rem;
+
+        .text {
+            h2 {
+                font-family: bsb;
+                font-size: 4.5rem;
+                letter-spacing: .1rem;
+                color: $crvena;
+                margin-bottom: 5rem;
+            }
+
+            p {
+                font-family: roboto;
+                font-size: 1.5rem;
+
+            }
+        }
+
+        .tehnologije-text {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            grid-gap: .5rem;
+            grid-auto-flow: dense;
+
+
+
+            p {
+
+                margin-right: 1.5rem;
+                font-family: roboto;
+                font-size: 1.5rem;
+                color: $plava;
+            }
+        }
+    }
+
+    svg {
+        margin-top: 10%;
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 7rem;
+    }
+
+}
+
+@media only screen and (max-width: 1450px) {
+    .about-us-container {
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 1300px) {
+    .about-us-container {
+        width: 95%;
+
+        .about1 {
+            .img-h {
+                h1 {
+                    font-size: 4rem;
+                }
+            }
+
+            p {
+                font-size: 1.3rem;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1080px) {
+    .about-us-container {
+
+
+        .about1 {
+            grid-template-rows: 1fr 1fr;
+
+            .img-h {
+                grid-column: 1 / -1;
+                grid-row: 1/2;
+
+
+                img {
+                    grid-column: 1 / -1;
+                    grid-row: 1 / -1;
+                    max-width: 80%;
+                    z-index: -100;
+                }
+
+                h1 {
+                    grid-column: 1 / -1;
+                    align-self: center;
+                    grid-row: 1 / -1;
+                    justify-self: end;
+                    z-index: 0;
+                    font-size: 7rem;
+                    margin-right: 20%;
+                }
+            }
+
+            p {
+                text-align: center;
+                grid-column: 1/-1;
+                grid-row: 2/-1;
+                align-self: center;
+                margin: 0 !important;
+                font-size: 2rem;
+
+            }
+
+        }
+
+        .about2 {
+            margin-top: 0;
+            grid-template-columns: 1fr;
+            justify-items: center;
+
+            .text {
+                text-align: center;
+
+                h2 {
+                    font-size: 7rem
+                }
+
+                p {
+                    font-size: 2rem;
+                }
+            }
+
+            .tehnologije-text {
+                grid-template-columns: repeat(3, 1fr);
+                justify-self: center;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 650px) {
+    .about-us-container {
+        .about2 {
+            align-self: start;
+
+            .text {
+                h2 {
+                    font-size: 5rem;
+                }
+
+            }
+
+            .tehnologije-text {
+
+                grid-template-columns: 1fr;
+                text-align: center;
+
+                p {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .about-us-container {
+        .about1 {
+            .img-h {
+                h1 {
+                    font-size: 3rem;
+                }
+            }
+
+            p {
+                font-size: 1.5rem;
+            }
+        }
+
+        .about2 {
+            margin-top: 10%;
+
+            .text {
+                h2 {
+                    font-size: 2.5rem;
+                    margin-bottom: 5%;
+                }
+
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+
+            .tehnologije-text {
+
+
+
+                p {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}

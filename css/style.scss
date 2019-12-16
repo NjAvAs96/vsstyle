@@ -1,0 +1,115 @@
+:root {
+	font-size: 1em;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style: noSne;
+}
+
+@font-face {
+	font-family: bsl;
+	src: url("/fonts/BigShouldersDisplay-Light.ttf");
+}
+
+@font-face {
+	font-family: bsr;
+	src: url("/fonts/BigShouldersDisplay-Regular.ttf");
+}
+
+@font-face {
+	font-family: bsb;
+	src: url("/fonts/BigShouldersDisplay-Bold.ttf");
+}
+
+@font-face {
+	font-family: roboto;
+	src: url("/fonts/Roboto-Light.ttf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: #fff;
+	font-family: roboto;
+}
+
+body {
+	background-color: #1b1b1b;
+
+	.upArrow {
+
+
+		border: solid 1px #b65656;
+		border-radius: 5px;
+		position: fixed;
+		bottom: 50px;
+		right: 50px;
+		width: 50px;
+		height: auto;
+		display: none;
+		animation-name: arrowUp;
+		animation-duration: 2s;
+		animation-iteration-count: infinite;
+		animation-timing-function: ease-in-out;
+		transition: border-radius 0.5s ease-in-out;
+
+
+		&:hover {
+			border-radius: 15px;
+		}
+
+		a svg {
+			padding: 10px;
+			width: 100%;
+			height: 100%;
+
+
+			#strelica {
+				transition: all .5s linear;
+				fill: rgba($color: #b65656, $alpha: 0.0);
+			}
+
+			&:hover #strelica {
+				fill: rgba($color: #b65656, $alpha: 1.0);
+
+			}
+		}
+
+
+	}
+}
+
+
+@keyframes arrowUp {
+	0% {
+		bottom: 50px;
+	}
+
+	50% {
+
+		bottom: 60px;
+	}
+
+	100% {
+		bottom: 50px;
+	}
+}
+
+@import 'variable.scss';
+
+@import 'header.scss';
+@import 'home.scss';
+@import 'footer.scss';
+@import 'scrollbar.scss';
+@import 'about.scss';
+@import 'kontakt.scss';
+@import 'usluge.scss';

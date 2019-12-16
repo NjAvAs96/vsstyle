@@ -1,0 +1,35 @@
+<svg id="arrow" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47.88 34.28"><defs>
+<style>.cls-1{
+fill:transparent;
+stroke:#b65656;
+stroke-miterlimit:10;}
+
+.anm{
+-webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+  animation-name: example;
+  animation-delay:2s;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  transform-origin: 50% 50%;
+  }
+  /* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+  0% {fill: transparent;}
+  50%{fill: #b65656;}
+  100% {fill: transparent; }
+}
+
+/* Standard syntax */
+@keyframes example {
+  0% {fill: transparent;}
+  50%{fill: #b65656;}
+  100% {fill: transparent; }
+}
+
+</style>
+</defs>
+<title>121</title>
+<path class="cls-1 anm" d="M25,38" transform="translate(-1.514 -11.86)"/><path class="cls-1 anm" 
+d="M42,9.77L27.85,28.39a3.58,3.58,0,0,1-5.7,0L8,9.77A3.58,3.58,0,0,0,5.15,8.36h0A3.58,3.58,0,0,0,2.3,14.11L22.15,40.23a3.58,3.58,0,0,0,5.7,0L47.7,14.11a3.58,3.58,0,0,0-2.85-5.75h0A3.58,3.58,0,0,0,42,9.77Z" transform="translate(-1.06 -7.86)"/>
+</svg>

@@ -1,0 +1,121 @@
+.about-us-container {
+  width: 80%;
+  height: auto;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  margin-top: 10rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: (1fr)[2];
+      grid-template-rows: repeat(2, 1fr);
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-us-container .about1 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-us-container .about1 .img-h {
+  grid-column: 1/-1;
+  grid-row: 1/-1;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 2fr 1fr;
+      grid-template-columns: 2fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-us-container .about1 .img-h img {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  grid-row: 1/-1;
+  max-width: 100%;
+}
+
+.about-us-container .about1 .img-h h1 {
+  margin-top: 4rem;
+  font-family: bsb;
+  font-size: 5.3rem;
+  letter-spacing: .1rem;
+  color: #B65656;
+  grid-column: 2/-1;
+  grid-row: 1/-1;
+  -ms-grid-column-align: left;
+      justify-self: left;
+  -ms-flex-item-align: start;
+      -ms-grid-row-align: start;
+      align-self: start;
+}
+
+.about-us-container .about1 p {
+  margin-top: 1rem;
+  -ms-flex-item-align: end;
+      -ms-grid-row-align: end;
+      align-self: end;
+  grid-column: 2/-1;
+  grid-row: 1/-1;
+  font-family: roboto;
+  font-size: 1.5rem;
+}
+
+.about-us-container .about2 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5rem;
+}
+
+.about-us-container .about2 .text h2 {
+  font-family: bsb;
+  font-size: 4.5rem;
+  letter-spacing: .1rem;
+  color: #B65656;
+  margin-bottom: 5rem;
+}
+
+.about-us-container .about2 .text p {
+  font-family: roboto;
+  font-size: 1.5rem;
+}
+
+.about-us-container .about2 .tehnologije-text {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(180px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-gap: .5rem;
+  grid-auto-flow: dense;
+}
+
+.about-us-container .about2 .tehnologije-text p {
+  font-family: roboto;
+  font-size: 2rem;
+  color: #b1b1f0;
+}
+
+.about-us-container img {
+  max-width: 80%;
+  margin-bottom: 7rem;
+}
+/*# sourceMappingURL=about.css.map */
