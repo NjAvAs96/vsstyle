@@ -9,6 +9,7 @@
   background: linear-gradient(102.17deg, rgba(181, 96, 103, 0.2) 0%, rgba(177, 177, 240, 0.2) 100%);
   border: 2px solid #B1B1F0;
   border-radius: 15px;
+  overflow-x: hidden;
 }
 
 .over .hero {
