@@ -40,11 +40,12 @@ li {
 	box-sizing: border-box;
 	color: #fff;
 	font-family: roboto;
+	overflow-x: hidden;
 }
 
 body {
 
-	overflow-x: hidden;
+
 	background-color: #1b1b1b;
 
 	.upArrow {
