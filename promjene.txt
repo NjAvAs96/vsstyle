@@ -1,1 +1,9 @@
-responsive na uslugama ovaj novi svg sto smo ubacili
+-responsive na uslugama ovaj novi svg sto smo ubacili
+-accessibilty
+-strelica na home
+-loader
+-tabele(cena)
+-tabele(pag ili show more)
+-text
+-overflow-x
+-tel
