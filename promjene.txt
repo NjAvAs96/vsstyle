@@ -5,5 +5,5 @@
 -tabele(cena)
 -tabele(pag ili show more)
 -text
--overflow-x
+-font size
 -tel

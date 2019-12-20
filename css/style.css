@@ -1300,7 +1300,7 @@ footer a:hover {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (orientation: portrait) {
   .over .contact-container svg {
     grid-column: 1 / -1;
     -ms-grid-row: 1;
