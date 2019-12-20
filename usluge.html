@@ -518,26 +518,26 @@
             </div>
 
             <div id="usluge-forma" class="usluge-forma">
-                <form action="">
-                    <input type="text" placeholder="VAŠE IME (OBAVEZNO)">
-                    <input type="text" placeholder="VAŠE PREZIME (OBAVEZNO)">
-                    <input type="email" placeholder="VAŠ EMAIL (OBAVEZNO)">
-                    <input type="text" placeholder="VAŠ BROJ TELEFONA (OBAVEZNO)">
+                <form name="contact-usluge" action="POST" data-netlify="true">
+                    <input name="IME" type="text" placeholder="VAŠE IME (OBAVEZNO)">
+                    <input type="text" name="PREZIME" placeholder="VAŠE PREZIME (OBAVEZNO)">
+                    <input type="email" name="EMAIL" placeholder="VAŠ EMAIL (OBAVEZNO)">
+                    <input type="text" name="BROJ TELEFONA" placeholder="VAŠ BROJ TELEFONA (OBAVEZNO)">
                     <textarea name="poruka" id="poruka"
                         placeholder="Objasnite nam ukratko kakav sajt želite i koje su vaše potrebe.."></textarea>
                     <div id="radio" class="radio-group">
                         <label class="radio-group-item">
-                            <input id="basic-rbtn" type="radio" name="paket" value="basic" checked><span></span>
+                            <input id="basic-rbtn" type="radio" name="paket1" value="basic" checked><span></span>
                             <p>basic</p>
 
                         </label>
                         <label class="radio-group-item">
-                            <input id="standard-rbtn" type="radio" name="paket" value="standard"><span></span>
+                            <input id="standard-rbtn" type="radio" name="paket2" value="standard"><span></span>
                             <p>STANDARD</p>
                         </label>
                         <label class="radio-group-item">
 
-                            <input id="premium-rbtn" type="radio" name="paket" value="premium"><span></span>
+                            <input id="premium-rbtn" type="radio" name="paket3" value="premium"><span></span>
                             <p>PREMIUM</p>
                         </label>
                     </div>
