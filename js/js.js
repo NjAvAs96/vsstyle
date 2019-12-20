@@ -6,7 +6,7 @@ anime({
             value: [anime.setDashoffset,
                 0
             ],
-            duration: 5000,
+            duration: 2500,
             // delay: 500
         },
 
@@ -39,8 +39,8 @@ anime({
             value: [anime.setDashoffset,
                 0
             ],
-            duration: 5000,
-            delay: 10000
+            duration: 2500,
+            delay: 5000
         },
 
 
@@ -74,8 +74,8 @@ anime({
             value: [anime.setDashoffset,
                 0
             ],
-            duration: 5000,
-            delay: 10000
+            duration: 2500,
+            delay: 5000
         },
 
 
@@ -340,5 +340,8 @@ anime({
 
 window.addEventListener("load", function () {
     const loader = document.querySelector(".loader");
-    loader.className += " gone"; // class "loader hidden"
+    setTimeout(function () {
+        loader.className += " gone";
+    }, 3000);
+
 });
