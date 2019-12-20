@@ -342,6 +342,16 @@ window.addEventListener("load", function () {
     const loader = document.querySelector(".loader");
     setTimeout(function () {
         loader.className += " gone";
+        AOS.init({
+            duration: 1000,
+            startEvent: 'DOMContentLoaded',
+            dealay: 3200,
+            offset: 120,
+            once: true,
+            easing: 'ease-in-out-quart',
+
+        });
     }, 3000);
+
 
 });
