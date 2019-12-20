@@ -108,6 +108,96 @@ body {
 	}
 }
 
+
+
+//Loader
+
+.loader {
+	position: absolute;
+	background-color: #111;
+	min-width: 100vw;
+	min-height: 100vh;
+	z-index: 1000;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	svg {
+		position: absolute;
+		display: block;
+
+		z-index: 1001;
+		width: 30%;
+		height: auto;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+
+
+
+
+	}
+
+
+
+
+
+
+
+	#stroke-linije3 {
+
+		stroke-width: 2px;
+		stroke: #B65656;
+	}
+
+	#stroke-linije2 {
+
+		stroke-width: 1px;
+		stroke: rgba($color: #111, $alpha: .5);
+	}
+
+	#stroke-sredina {
+		stroke: #B65656;
+		stroke-width: 2;
+	}
+
+
+	#stroke-sredina2 {
+		stroke: rgba($color: #111, $alpha: .5);
+		stroke-width: 1;
+	}
+
+
+	#v,
+	#s,
+	#ss,
+	#t,
+	#y,
+	#l,
+	#e {
+		opacity: 0;
+	}
+}
+
+.loader.gone {
+	-webkit-animation: fadeOut 1s;
+	animation: fadeOut 1s;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+@keyframes fadeOut {
+	100% {
+		opacity: 0;
+		visibility: hidden;
+
+	}
+}
+
+
+
+
 @import 'variable.scss';
 
 @import 'header.scss';

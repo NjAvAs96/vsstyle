@@ -113,6 +113,81 @@ body .upArrow a svg:hover #strelica {
   }
 }
 
+.loader {
+  position: absolute;
+  background-color: #111;
+  min-width: 100vw;
+  min-height: 100vh;
+  z-index: 1000;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.loader svg {
+  position: absolute;
+  display: block;
+  z-index: 1001;
+  width: 30%;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.loader #stroke-linije3 {
+  stroke-width: 2px;
+  stroke: #B65656;
+}
+
+.loader #stroke-linije2 {
+  stroke-width: 1px;
+  stroke: rgba(17, 17, 17, 0.5);
+}
+
+.loader #stroke-sredina {
+  stroke: #B65656;
+  stroke-width: 2;
+}
+
+.loader #stroke-sredina2 {
+  stroke: rgba(17, 17, 17, 0.5);
+  stroke-width: 1;
+}
+
+.loader #v,
+.loader #s,
+.loader #ss,
+.loader #t,
+.loader #y,
+.loader #l,
+.loader #e {
+  opacity: 0;
+}
+
+.loader.gone {
+  -webkit-animation: fadeOut 1s;
+  animation: fadeOut 1s;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes fadeOut {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
 header {
   position: absolute;
   display: -webkit-box;
