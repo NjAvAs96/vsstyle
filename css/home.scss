@@ -329,8 +329,11 @@
             }
         }
 
+        #content,
         .content {
+
             .section-2 {
+
                 .icon-container {
                     grid-template-columns: 1fr;
                 }
@@ -348,10 +351,21 @@
             }
         }
 
-
+        #content,
         .content {
 
+            .section-1 {
+                .small-text {
+                    font-size: 1rem;
+                }
+            }
+
             .section-2 {
+
+
+                h3 {
+                    font-size: 1.9rem;
+                }
 
                 .icon-container {
 
@@ -364,6 +378,10 @@
                             grid-row: 1 / 2;
                             width: 100% !important;
                             height: auto;
+
+                            h4 {
+                                font-size: 1.7rem;
+                            }
 
                             p {
                                 display: flex;
@@ -391,6 +409,8 @@
 
             .content,
             #content {
+
+                .section-1 {}
 
                 .section-2 {
 

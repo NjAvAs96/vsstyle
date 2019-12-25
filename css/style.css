@@ -714,6 +714,7 @@ header nav ul a:hover {
   .over .hero .arrow {
     margin-top: 45px;
   }
+  .over #content .section-2 .icon-container,
   .over .content .section-2 .icon-container {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
@@ -724,12 +725,22 @@ header nav ul a:hover {
   .over .hero h1 {
     font-size: 2.5em;
   }
+  .over #content .section-1 .small-text,
+  .over .content .section-1 .small-text {
+    font-size: 1rem;
+  }
+  .over #content .section-2 h3,
+  .over .content .section-2 h3 {
+    font-size: 1.9rem;
+  }
+  .over #content .section-2 .icon-container .icon,
   .over .content .section-2 .icon-container .icon {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     -ms-grid-rows: (1fr)[2];
         grid-template-rows: repeat(2, 1fr);
   }
+  .over #content .section-2 .icon-container .icon .text1,
   .over .content .section-2 .icon-container .icon .text1 {
     -ms-grid-column: 1;
     -ms-grid-column-span: 2;
@@ -740,6 +751,11 @@ header nav ul a:hover {
     width: 100% !important;
     height: auto;
   }
+  .over #content .section-2 .icon-container .icon .text1 h4,
+  .over .content .section-2 .icon-container .icon .text1 h4 {
+    font-size: 1.7rem;
+  }
+  .over #content .section-2 .icon-container .icon .text1 p,
   .over .content .section-2 .icon-container .icon .text1 p {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -747,6 +763,7 @@ header nav ul a:hover {
     min-width: 100% !important;
     text-align: center;
   }
+  .over #content .section-2 .icon-container .icon .icon1,
   .over .content .section-2 .icon-container .icon .icon1 {
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
