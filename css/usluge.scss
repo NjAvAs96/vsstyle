@@ -514,6 +514,7 @@
 
             .usluge-pocetna {
                 //height: 100vh;
+                grid-template-rows: 1fr;
 
                 .usluge-pocetna-text {
                     grid-row: 1/-1;
@@ -531,7 +532,7 @@
                         text-align: center;
                         align-self: stretch;
                         width: 100%;
-                        margin-top: 50%;
+                        margin-top: 70%;
                     }
                 }
 
@@ -542,6 +543,7 @@
                     z-index: -100;
                     height: 100%;
                     margin-right: 0;
+                    max-width: 70%;
 
                 }
             }
@@ -588,6 +590,23 @@
 @media only screen and (max-width: 580px) {
     .over {
         .usluge-container {
+            .usluge-pocetna {
+                .usluge-pocetna-text {
+                    p {
+                        margin-top: 30%;
+                    }
+
+                    h1 {
+                        margin-bottom: 0;
+                    }
+                }
+
+                svg {
+                    opacity: .7 !important;
+                    margin-bottom: 50%;
+                }
+            }
+
             .usluge-forma {
                 .radio-group {
                     flex-direction: column;
@@ -622,11 +641,14 @@
             .usluge-pocetna {
                 .usluge-pocetna-text {
 
-
                     p {
-                        margin-top: 70%;
+                        margin-top: 15rem;
 
                     }
+                }
+
+                svg {
+                    opacity: initial;
                 }
             }
         }

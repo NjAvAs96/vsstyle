@@ -250,3 +250,15 @@
         }
     }
 }
+
+@media only screen and (max-width: 300px) {
+    .over {
+        .contact-container {
+            .contact-form {
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}

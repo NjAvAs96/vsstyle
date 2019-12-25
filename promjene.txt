@@ -1,5 +1,5 @@
--responsive na uslugama ovaj novi svg sto smo ubacili
--accessibilty
+
+-accessibilty??
 -strelica na home
 -loader
 -tabele(cena)
