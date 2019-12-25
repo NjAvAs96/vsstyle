@@ -332,6 +332,11 @@
 
 @media only screen and (max-width: 650px) {
     .over {
+        .hero {
+            h1 {
+                font-size: 2.5em;
+            }
+        
 
         .content {
 
@@ -408,6 +413,12 @@
 
     .over {
 
+        .hero {
+            h1 {
+                font-size: 2em;
+            }
+        }
+
         .content {
 
             .section-1 {
@@ -441,6 +452,7 @@
 @media only screen and (max-width: 289px) {
 
     .over {
+       
 
         .content {
 

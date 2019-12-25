@@ -761,6 +761,9 @@ header nav ul a:hover {
 }
 
 @media only screen and (max-width: 331px) {
+  .over .hero h1 {
+    font-size: 2em;
+  }
   .over .content .section-1 .kontaktiraj-nas {
     padding: 1rem 1rem !important;
   }
