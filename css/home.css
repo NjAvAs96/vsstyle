@@ -293,6 +293,10 @@
   .over .hero .arrow img {
     max-width: 60px;
   }
+  .over .hero #content .section-2 h3,
+  .over .hero .content .section-2 h3 {
+    font-size: 2rem;
+  }
 }
 
 @media only screen and (max-height: 610px) {
