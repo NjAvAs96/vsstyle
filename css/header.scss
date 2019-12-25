@@ -225,3 +225,17 @@ header {
 		}
 	}
 }
+
+@media only screen and (max-width: 1040px) {
+	header {
+		.logo {
+			margin-left: 1.5rem;
+
+			svg {
+				width: 30%;
+			}
+		}
+
+
+	}
+}
