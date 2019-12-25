@@ -1161,7 +1161,7 @@ footer a:hover {
         -ms-grid-row-align: center;
         align-self: center;
     margin: 0 !important;
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .about-us-container .about2 {
     margin-top: 0;
@@ -1176,7 +1176,7 @@ footer a:hover {
     font-size: 7rem;
   }
   .about-us-container .about2 .text p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .about-us-container .about2 .tehnologije-text {
     -ms-grid-columns: (1fr)[3];
@@ -1201,7 +1201,7 @@ footer a:hover {
     text-align: center;
   }
   .about-us-container .about2 .tehnologije-text p {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -2050,34 +2050,39 @@ footer a:hover {
 }
 
 @media only screen and (max-width: 1130px) {
+  .over .usluge-container {
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+  }
   .over .usluge-container .usluge-pocetna .usluge-pocetna-text {
     grid-row: 1/-1;
     z-index: 100;
     grid-column: 1/-1;
   }
   .over .usluge-container .usluge-pocetna .usluge-pocetna-text h1 {
-    -ms-grid-column-align: end;
-        justify-self: end;
-    -ms-flex-item-align: end;
-        align-self: flex-end;
+    -ms-grid-column-align: center;
+        justify-self: center;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
     margin-bottom: 30%;
   }
   .over .usluge-container .usluge-pocetna .usluge-pocetna-text p {
-    margin-top: 20%;
     text-align: center;
     -ms-flex-item-align: stretch;
         -ms-grid-row-align: stretch;
         align-self: stretch;
     width: 100%;
+    margin-top: 50%;
   }
   .over .usluge-container .usluge-pocetna svg {
     grid-column: 1/-1;
     -ms-grid-column-align: center;
         justify-self: center;
-    -ms-grid-row: 1;
-    -ms-grid-row-span: 1;
-    grid-row: 1/2;
+    grid-row: 1/-1;
     z-index: -100;
+    height: 100%;
+    margin-right: 0;
   }
   .over .usluge-container .ponuda-naruci .naruci-btn {
     width: auto;

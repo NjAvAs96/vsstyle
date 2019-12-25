@@ -510,7 +510,11 @@
 @media only screen and (max-width: 1130px) {
     .over {
         .usluge-container {
+            grid-template-rows: 1fr;
+
             .usluge-pocetna {
+                //height: 100vh;
+
                 .usluge-pocetna-text {
                     grid-row: 1/-1;
                     z-index: 100;
@@ -518,24 +522,26 @@
 
 
                     h1 {
-                        justify-self: end;
-                        align-self: flex-end;
+                        justify-self: center;
+                        align-self: center;
                         margin-bottom: 30%;
                     }
 
                     p {
-                        margin-top: 20%;
                         text-align: center;
                         align-self: stretch;
                         width: 100%;
+                        margin-top: 50%;
                     }
                 }
 
                 svg {
                     grid-column: 1/-1;
                     justify-self: center;
-                    grid-row: 1/2;
+                    grid-row: 1/-1;
                     z-index: -100;
+                    height: 100%;
+                    margin-right: 0;
 
                 }
             }

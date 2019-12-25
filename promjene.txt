@@ -7,4 +7,3 @@
 -text
 -font size
 -tel
--home ikonice na 611-650px
