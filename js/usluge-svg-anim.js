@@ -104,3 +104,37 @@ var morphingSunce = anime({
     autoplay: true,
     direction: 'alternate'
 });
+
+
+anime({
+    targets: '#stroke-linije3',
+
+
+    strokeDashoffset: [{
+            value: [anime.setDashoffset,
+                0
+            ],
+            duration: 2500,
+            // delay: 500
+        },
+
+    ],
+
+
+
+    easing: 'easeInOutSine',
+
+
+
+
+
+    direction: "alternate",
+    loop: true,
+
+
+
+
+
+
+});
+

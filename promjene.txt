@@ -1,9 +1,9 @@
 
 -accessibilty??
--strelica na home
+
 -loader
--tabele(cena)
--tabele(pag ili show more)
+-tabele(cena)??
+-tabele(pag ili show more)??
 -text
--font size
--tel
+-font size?
+-tel??
