@@ -723,6 +723,17 @@ header nav ul a:hover {
 }
 
 @media only screen and (max-height: 610px) {
+  .over .hero .hero-od-heroa h1 {
+    font-size: 2rem;
+  }
+  .over #content .section-1 h2,
+  .over .content .section-1 h2 {
+    font-size: 1.7rem;
+  }
+  .over #content .section-2 h3,
+  .over .content .section-2 h3 {
+    font-size: 1.5rem;
+  }
   .over #content .section-2 .icon-container,
   .over .content .section-2 .icon-container {
     -ms-grid-columns: 1fr;
