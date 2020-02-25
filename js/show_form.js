@@ -407,7 +407,7 @@ window.addEventListener("load", function () {
             easing: 'ease-in-out-quart',
 
         });
-    }, 3000);
+    });
 
 
 });
