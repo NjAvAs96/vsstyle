@@ -1436,6 +1436,10 @@ footer a:hover {
 }
 
 @media only screen and (orientation: portrait) {
+  .over .contact-container {
+    -ms-grid-rows: (500px)[2];
+        grid-template-rows: repeat(2, 500px);
+  }
   .over .contact-container svg {
     grid-column: 1 / -1;
     -ms-grid-row: 1;
@@ -1450,6 +1454,7 @@ footer a:hover {
     width: 100%;
   }
   .over .contact-container .contact-form {
+    margin-top: 10%;
     -ms-grid-column-align: center;
         justify-self: center;
     -ms-flex-item-align: start;
@@ -1470,6 +1475,7 @@ footer a:hover {
     font-size: 2rem;
   }
   .over .contact-container .contact-form button {
+    margin-bottom: 20%;
     font-size: 2rem;
   }
   .over .contact-container .contact-form h1 {

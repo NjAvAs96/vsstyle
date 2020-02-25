@@ -179,6 +179,8 @@
 @media only screen and (orientation: portrait) {
     .over {
         .contact-container {
+            grid-template-rows: repeat(2, 500px);
+            
             svg {
                 grid-column: 1 / -1;
                 grid-row: 1 / 2;
@@ -189,6 +191,7 @@
             }
 
             .contact-form {
+                margin-top: 10%;
                 justify-self: center;
                 align-self: start;
                 grid-column: 1 / -1;
@@ -207,6 +210,7 @@
                 }
 
                 button {
+                    margin-bottom: 20%;
                     font-size: 2rem;
                 }
 
