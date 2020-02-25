@@ -37,18 +37,21 @@
 
         }
 
-        input:not([type=submit]):focus {
-            border-bottom: 1px solid $plava;
+        input:not([type=submit]):focus,
+        input:not([type=submit]):active {
+            border-bottom: 1px solid $crvena;
             outline: none;
             transition: border 0.5s linear;
         }
 
         ::placeholder {
             color: rgba($color: #fff, $alpha: 0.6);
+            border-color: $crvena;
         }
 
         input:focus::-webkit-input-placeholder {
             color: $plava;
+            border-color: $crvena;
 
         }
 
@@ -61,17 +64,20 @@
             color: #fff;
             margin-top: 2rem;
             outline: none;
-            transition: color 0.5s linear;
-        }
 
-        textarea:focus {
-            border-bottom: 1px solid $plava;
-
+            
         }
 
         textarea:focus::-webkit-input-placeholder {
             color: $plava;
-            transition: color 0.5s linear;
+
+            transition: all 0.5s linear !important;
+
+        }
+
+        textarea:focus {
+            border-bottom: 1px solid #b65656;
+            transition: all 0.5s linear !important;
         }
 
         button {

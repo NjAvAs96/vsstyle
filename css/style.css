@@ -1301,8 +1301,9 @@ footer a:hover {
   margin-top: 2rem;
 }
 
-.contact-container .contact-form input:not([type=submit]):focus {
-  border-bottom: 1px solid #b1b1f0;
+.contact-container .contact-form input:not([type=submit]):focus,
+.contact-container .contact-form input:not([type=submit]):active {
+  border-bottom: 1px solid #b65656;
   outline: none;
   -webkit-transition: border 0.5s linear;
   transition: border 0.5s linear;
@@ -1310,22 +1311,27 @@ footer a:hover {
 
 .contact-container .contact-form ::-webkit-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
+  border-color: #b65656;
 }
 
 .contact-container .contact-form :-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
+  border-color: #b65656;
 }
 
 .contact-container .contact-form ::-ms-input-placeholder {
   color: rgba(255, 255, 255, 0.6);
+  border-color: #b65656;
 }
 
 .contact-container .contact-form ::placeholder {
   color: rgba(255, 255, 255, 0.6);
+  border-color: #b65656;
 }
 
 .contact-container .contact-form input:focus::-webkit-input-placeholder {
   color: #b1b1f0;
+  border-color: #b65656;
 }
 
 .contact-container .contact-form textarea {
@@ -1337,18 +1343,18 @@ footer a:hover {
   color: #fff;
   margin-top: 2rem;
   outline: none;
-  -webkit-transition: color 0.5s linear;
-  transition: color 0.5s linear;
-}
-
-.contact-container .contact-form textarea:focus {
-  border-bottom: 1px solid #b1b1f0;
 }
 
 .contact-container .contact-form textarea:focus::-webkit-input-placeholder {
   color: #b1b1f0;
-  -webkit-transition: color 0.5s linear;
-  transition: color 0.5s linear;
+  -webkit-transition: all 0.5s linear !important;
+  transition: all 0.5s linear !important;
+}
+
+.contact-container .contact-form textarea:focus {
+  border-bottom: 1px solid #b65656;
+  -webkit-transition: all 0.5s linear !important;
+  transition: all 0.5s linear !important;
 }
 
 .contact-container .contact-form button {
