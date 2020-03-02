@@ -105,6 +105,30 @@
 
 }
 
+@media only screen and (max-width: 1525px) {
+    .about-us-container {
+
+        .about1 {
+
+                p {
+                    font-size: 1.3rem;
+                    letter-spacing: 1px;
+                }
+        }
+
+        .about2 {
+
+            .text {
+
+                p {
+                    font-size: 1.3rem;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+}
+
 @media only screen and (max-width: 1450px) {
     .about-us-container {
         width: 90%;
@@ -131,7 +155,7 @@
 }
 
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 1110px) {
     .about-us-container {
 
 

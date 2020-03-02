@@ -43,7 +43,7 @@ window.addEventListener("load", function () {
         AOS.init({
             duration: 1000,
             startEvent: 'DOMContentLoaded',
-            dealay: 3200,
+            dealay: 200,
             offset: 120,
             once: true,
             easing: 'ease-in-out-quart',
