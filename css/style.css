@@ -2121,6 +2121,7 @@ footer a:hover {
     grid-row: 1/-1;
     z-index: 100;
     grid-column: 1/-1;
+    width: 90%;
   }
   .over .usluge-container .usluge-pocetna .usluge-pocetna-text h1 {
     -ms-grid-column-align: center;
@@ -2139,8 +2140,7 @@ footer a:hover {
     padding: 10%;
     width: 100%;
     border-radius: 5px;
-    margin-top: 120%;
-    border: 2px solid #b1b1f0;
+    margin-top: 70%;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -2189,7 +2189,7 @@ footer a:hover {
 
 @media only screen and (max-width: 580px) {
   .over .usluge-container .usluge-pocetna .usluge-pocetna-text p {
-    margin-top: 100%;
+    margin-top: 70%;
   }
   .over .usluge-container .usluge-pocetna .usluge-pocetna-text h1 {
     margin-bottom: 0;
@@ -2230,7 +2230,7 @@ footer a:hover {
 
 @media only screen and (max-width: 450px) {
   .over .usluge-container .usluge-pocetna .usluge-pocetna-text p {
-    margin-top: 15rem;
+    margin-top: 70%;
   }
   .over .usluge-container .usluge-pocetna svg {
     margin-top: 20%;
@@ -2240,7 +2240,7 @@ footer a:hover {
 
 @media only screen and (max-width: 400px) {
   .over .usluge-container .usluge-pocetna .usluge-pocetna-text p {
-    margin-top: 15rem;
+    margin-top: 70%;
   }
   .over .usluge-container .usluge-pocetna svg {
     margin-top: 25%;
