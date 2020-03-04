@@ -203,7 +203,7 @@
                                 <path id="V"
                                     d="M67.9991 35.9919V36C67.9991 54.1749 53.3107 69 34.9996 69C16.6884 69 2 54.1749 2 36C2 17.8251 16.6884 3 34.9996 3C53.3181 3 68.1324 17.8305 67.9991 35.9919Z"
                                     stroke="#B65656" stroke-width="2" />
-                            </svg></a></div </li> </ul> <!-- END OF MENI LARGE -->
+                            </svg></a></div> </li> </ul> <!-- END OF MENI LARGE -->
 
         </nav>
     </header>
@@ -558,26 +558,26 @@
             </div>
 
             <div id="usluge-forma" class="usluge-forma">
-                <form action="">
-                    <input type="text" placeholder="YOUR NAME (REQUIRED)">
-                    <input type="text" placeholder="YOUR SURNAME (REQUIRED)">
-                    <input type="email" placeholder="YOUR EMAIL (REQUIRED)">
-                    <input type="text" placeholder="YOUR PHONE NUMBER (REQUIRED)">
-                    <textarea name="poruka" id="poruka"
+                <form name="contact-services" method="POST" action="/success/" data-netlify="true">
+                    <input name="Name" type="text" placeholder="YOUR NAME (REQUIRED)">
+                    <input name="Lastname" type="text" placeholder="YOUR SURNAME (REQUIRED)">
+                    <input name="Email" type="email" placeholder="YOUR EMAIL (REQUIRED)">
+                    <input name="Phone" type="text" placeholder="YOUR PHONE NUMBER (REQUIRED)">
+                    <textarea name="Message" name="Message" id="poruka"
                         placeholder="Explain briefly what kind of website do you need.."></textarea>
                     <div id="radio" class="radio-group">
                         <label class="radio-group-item">
-                            <input id="basic-rbtn" type="radio" name="paket" value="basic" checked><span></span>
+                            <input id="basic-rbtn" type="radio" name="Package" value="basic" checked><span></span>
                             <p>basic</p>
 
                         </label>
                         <label class="radio-group-item">
-                            <input id="standard-rbtn" type="radio" name="paket" value="standard"><span></span>
+                            <input id="standard-rbtn" type="radio" name="Package" value="standard"><span></span>
                             <p>STANDARD</p>
                         </label>
                         <label class="radio-group-item">
 
-                            <input id="premium-rbtn" type="radio" name="paket" value="premium"><span></span>
+                            <input id="premium-rbtn" type="radio" name="Package" value="premium"><span></span>
                             <p>STANDARD</p>
                         </label>
                     </div>

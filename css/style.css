@@ -2247,4 +2247,173 @@ footer a:hover {
     opacity: initial;
   }
 }
+
+.succ {
+  width: 100vw;
+  height: 100vh;
+}
+
+.succ .logoS {
+  max-width: 150px;
+  margin: auto auto;
+}
+
+.succ .logoS a svg #stroke-linije {
+  stroke-width: 3px;
+  stroke: #B65656;
+  /* stroke-miterlimit="10"; */
+  fill: transparent;
+  stroke-dasharray: 629, 20;
+  stroke-dashoffset: 0;
+  -webkit-transition: all 3s ease-in-out;
+  transition: all 3s ease-in-out;
+}
+
+.succ .logoS a svg:hover #stroke-linije {
+  stroke-dasharray: 629, 20;
+  stroke-dashoffset: 629;
+}
+
+.succ .succsess {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: linear-gradient(102.17deg, rgba(181, 96, 103, 0.2) 0%, rgba(177, 177, 240, 0.2) 100%);
+  border: 2px solid #B1B1F0;
+  border-radius: 15px;
+  overflow-x: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  margin: 5% auto;
+  width: 90%;
+  overflow: hidden;
+}
+
+.succ .succsess h1 {
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #622828;
+  margin: 2rem;
+  text-align: center;
+  font-family: bsb;
+  font-size: 5rem;
+  letter-spacing: .7rem;
+  color: #b65656;
+}
+
+.succ .succsess h2 {
+  text-align: center;
+  font-family: bsl;
+  font-size: 3rem;
+  letter-spacing: .5rem;
+}
+
+.succ .succsess button {
+  background-color: rgba(85, 85, 112, 0);
+  font-family: bsr;
+  font-size: 2rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  -ms-flex-preferred-size: 10px;
+      flex-basis: 10px;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: .5rem;
+  width: 50%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin: 2rem;
+  position: relative;
+  -webkit-transition: color 0.7s linear, border 0.7s linear;
+  transition: color 0.7s linear, border 0.7s linear;
+  cursor: pointer;
+}
+
+.succ .succsess button::before {
+  content: '';
+  -webkit-box-shadow: inset 0 0 10px #b1b1f0;
+          box-shadow: inset 0 0 10px #b1b1f0;
+  background: rgba(85, 85, 112, 0.2);
+  position: absolute;
+  width: 0%;
+  top: 0;
+  left: 0;
+  height: 100%;
+  -webkit-transition: 0.7s linear;
+  transition: 0.7s linear;
+  z-index: -1;
+}
+
+.succ .succsess button:hover::before {
+  width: 100%;
+}
+
+.succ .succsess button:hover {
+  color: #b65656;
+  border: 1px solid #b65656;
+}
+
+@media only screen and (max-width: 850px) {
+  .succ .logoS {
+    max-width: 100px;
+  }
+  .succ .succsess {
+    width: 75vw;
+  }
+  .succ .succsess h1 {
+    font-size: 3rem;
+  }
+  .succ .succsess h2 {
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+  }
+  .succ .succsess button {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .succ .logoS {
+    max-width: 75px;
+  }
+  .succ .succsess {
+    width: 85vw;
+  }
+  .succ .succsess h1 {
+    font-size: 3rem;
+    letter-spacing: 0.2rem;
+  }
+  .succ .succsess h2 {
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+  }
+}
+
+@-webkit-keyframes linija {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 629;
+  }
+}
+
+@keyframes linija {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: 629;
+  }
+}
 /*# sourceMappingURL=style.css.map */
